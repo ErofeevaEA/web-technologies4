@@ -1,0 +1,16 @@
+-- create
+CREATE TABLE EMPLOYEE (
+  empId INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  age INTEGER NOT NULL,
+  address TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO EMPLOYEE VALUES (0001, 'Clark', '20','17 Kensington Street');
+INSERT INTO EMPLOYEE VALUES (0002, 'Dave', '21','221B Baker Street');
+INSERT INTO EMPLOYEE VALUES (0003, 'Ava', '21','18 Red Avenue');
+INSERT INTO EMPLOYEE VALUES (0004, 'Liv', '20','26 Kings Road');
+
+-- fetch 
+SELECT * FROM EMPLOYEE;
